@@ -10,6 +10,9 @@
     <h1 class="text-4xl font-extrabold">
       {{ .Site.Author.name | default .Site.Title }}
     </h1>
+    {{/*  <div class="mt-1 text-2xl">
+      {{ partialCached "author-bio.html" . }}
+    </div>  */}}
     <div class="mt-1 text-2xl">
       {{ partialCached "author-links.html" . }}
     </div>

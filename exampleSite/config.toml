@@ -7,34 +7,36 @@
 # https://jpanther.github.io/congo/docs/
 # --------------------------------------------------------------------------
 
-theme = "congo"
+theme = "dark-kitten"
 languageCode = "en-AU"
 defaultContentLanguage = "en"
-title = "Congo"
+title = "dark-kitten"
 enableEmoji = true
 summaryLength = 0
 
 [author]
-  name = "Congo"
+  name = "dark-kitten"
   image = "img/author.jpg"
+  keywords = ["Dark", "Cute", "Dracula"]
   bio = "This is an example author bio, and although there's a stock photo of a dog here, this article was actually created by a human. :dog:"
   links = [
-    { twitter = "https://twitter.com/" },
-    { facebook = "https://facebook.com/" },
-    { linkedin = "https://linkedin.com/" },
-    { youtube = "https://youtube.com/" },
+    { type = "twitter", link = "https://twitter.com/", desc = "αβγω" },
+    { type = "facebook", link = "https://facebook.com/" },
+    { type = "linkedin", link = "https://linkedin.com/" },
+    { type = "youtube", link = "https://youtube.com/" },
   ]
 
 [taxonomies]
   tag = "tags"
 
 [params]
+  colorScheme = "dracula"
   # logo = "logo.jpg"
 
 [params.homepage]
-  layout = "custom"
-  showRecent = true
-  mainSections = ["samples"]
+  layout = "profile"
+  showRecent = false
+  # mainSections = ["samples"]
 
 [params.list]
   groupByYear = false

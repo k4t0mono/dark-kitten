@@ -66,5 +66,8 @@
       "from": "node_modules/katex/dist/fonts/",
       "to": "assets/lib/katex/fonts/"
     }
-  ]
+  ],
+  "dependencies": {
+    "tailwind-dracula": "^1.0.7"
+  }
 }
